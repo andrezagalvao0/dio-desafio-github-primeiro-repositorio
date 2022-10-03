@@ -1,0 +1,30 @@
+# Introdução
+
+CLI(comand line interface)- O git é por linha de comando
+
+Comandos:
+LINUX             X              WINDOWS 
+- cd etc			- equivale a cd windows
+- clear(ou ctrl + l)		- cls
+- mkdir(criar pasta)		- echo hello > hello.txt
+- echo(criar arquivos na pasta) 
+- rm -rf nomepasta(apaga pasta  - del(apaga apenas arquivo); rmdir nome /S /Q(apaga pasta)
+e outras pastas dentro dela)
+
+
+-> SHA1 - conjunto de funções hash criptográficas projetada pela NSA
+openssl sha1 nome-arquivo(gera um conjunto de 40 caracteres)
+
+#Objetos internos do git:
+ - Blobs: objetos funcionais	hash-object
+ - Trees: Armazenando e apontando para blob; guarda nome
+ - Commits: Vai junstar tudo(tree, parent, autor, mensagem, timestamp)
+
+-> Chave SSH - Fornecer conexão segura entre duas máquinas
+
+ls -a :comando para exibir os arquivos ocultos dentro de uma pasta
+
+
+UNTRACKED		X 		TRACKED
+- Arquivos que o 			- Arquivos que o git tem ciencia
+git não tem ciencia			- Unmodified; modified; staged
